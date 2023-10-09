@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 53, 52);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+span {
+    color: orange;
+}
+
+.pn {
+    display: flex;
+    justify-content: center; /* Mengatur gambar-gambar di tengah */
+    align-items: center; /* Mengatur gambar-gambar di tengah */
+    gap: 20px;
+}
+
+.pn img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.pl {
+    text-align: center;
+}
+
+.pm {
+    color: rgb(234, 124, 21);
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
